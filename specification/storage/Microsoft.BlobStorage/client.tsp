@@ -413,8 +413,6 @@ enum ImmutabilityPolicySetting {
   "python"
 );
 
-@@clientOption(Storage.Blob, "includeRootSlash", false, "javascript");
-
 @@clientOption(Error, "header", "x-ms-error-code:errorCode", "javascript");
 @@clientOption(Error, "restErrorCodeHeader", "x-ms-error-code", "javascript");
 @@clientOption(MetadataHeaders.metadata,
